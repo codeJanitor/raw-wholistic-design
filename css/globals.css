@@ -37,9 +37,3 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
-/* SVG Resizing Fix 
-svg {
-	viewBox
-	preserveAspectRatio
-*/
