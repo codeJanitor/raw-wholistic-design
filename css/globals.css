@@ -26,7 +26,7 @@
     --wd-dark-purple: #1a0238;
     --wd-light-purple: #5b0dc3;
     --wd-yellow: #f2c622;
-    --wd_grey: #bdbdbd;
+    --wd-grey: #bdbdbd;
 }
 
 /* Use Windows-style box-sizing. */
@@ -37,9 +37,3 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
-/* SVG Resizing Fix 
-svg {
-	viewBox
-	preserveAspectRatio
-*/
