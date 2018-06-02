@@ -134,3 +134,22 @@ height: 198px;
     bottom: 30%;
     right: 80%;
 }
+
+#coding_gif_container {
+    background-color: white;
+}
+
+#coding_gif {
+    height: 60%;
+    /*! bottom: 0; */
+    right: 18%;
+    top: 20%;
+}
+
+#WD_screenshot {
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+
