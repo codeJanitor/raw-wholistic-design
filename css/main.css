@@ -26,11 +26,23 @@ body {
     background-color: aquamarine;
 }
 
+.featured_photo {
+/*    margin-top: 2in;*/
+    height:4in;
+    width: 4in;
+    object-fit: cover;
+    display: block-inline;
+}
+
+.featured_photo:first-of-type {
+    width: 8in;
+}
+
 #paper {
     margin: auto;
     padding-left: 1in;
     padding-right: 1in;
-    padding-bottom: 0;
+    padding-bottom: 1in;
     background-color: white;
     box-shadow: -2px 5px 40px 0px #b66d03;
 }
@@ -72,7 +84,7 @@ height: 198px;
     align-items: baseline;
     justify-content: space-between;
     top: 90%;
-    margin-bottom: .5in;
+    /*margin-bottom: .5in;*/
 }
 
 #nav > a {
@@ -97,11 +109,16 @@ height: 198px;
     flex-grow: 2;
 }
 
-#link_images {
+#link_images, #photos {
     display: flex;
     flex-wrap: wrap;
     margin-top: -2in;
     pointer-events: none;
+}
+
+#photos {
+    margin: 0;
+    /*margin-bottom: .5in;*/
 }
 
 #link_titles {
@@ -143,7 +160,7 @@ height: 198px;
     height: 60%;
     /*! bottom: 0; */
     right: 18%;
-    top: 20%;
+    top: 5%;
 }
 
 #WD_screenshot {
