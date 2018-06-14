@@ -28,14 +28,20 @@ body {
 
 .featured_photo {
 /*    margin-top: 2in;*/
-    height:4in;
+    height:3.5in;
     width: 4in;
     object-fit: cover;
     display: block-inline;
+    opacity: 0.75;
 }
 
 .featured_photo:first-of-type {
     width: 8in;
+}
+
+.featured_photo:hover {
+    /*opacity: 0.5;*/
+    opacity: 1;
 }
 
 #paper {
@@ -119,6 +125,7 @@ height: 198px;
 #photos {
     margin: 0;
     /*margin-bottom: .5in;*/
+    pointer-events: inherit;
 }
 
 #link_titles {
@@ -142,7 +149,9 @@ height: 198px;
 }
 
 #link_titles > a:last-child {
-    padding-bottom: 0.5in;
+    /*! padding-bottom: 0.5in; */
+    padding-bottom: 0.25in;
+    padding-top: 2in;
 }
 
 #WE_logo, .preview_image > img {
